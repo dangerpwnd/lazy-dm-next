@@ -12,8 +12,8 @@ const Navigation = () => {
       <Link href="/secrets">Secrets & Clues</Link>
       <Link href="/locations">Fantastic Locations</Link>
       <Link href="/npcs">Important NPCs</Link>
-      <Link href="/npcs">Relevant Monsters</Link>
-      <Link href="/npcs">Magic Items</Link>
+      <Link href="/monsters">Relevant Monsters</Link>
+      <Link href="/magic">Magic Items</Link>
     </nav>
   );
 };
