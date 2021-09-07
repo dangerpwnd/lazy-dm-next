@@ -1,17 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import Navigation from '../components/navigation.jsx';
-import theme from '../../theme.js';
-
+import Navigation from "../components/navigation.jsx";
+import theme from "../../theme.js";
 
 const HomePage = () => {
-    return(
-            <div>
-                <Navigation />
-                <h1>Welcome to the Lazy DM Dashboard</h1>
-            </div>
-    )
-}
+  return (
+    <div>
+      <h1>Welcome to the Lazy DM Dashboard</h1>
+    </div>
+  );
+};
 
-export default HomePage
-
+export default HomePage;

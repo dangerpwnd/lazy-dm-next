@@ -1,14 +1,12 @@
-import React from 'react';
-import Navigation from '../../components/navigation.jsx'
-;
+import React from "react";
+import Navigation from "../../components/navigation.jsx";
 
 const StrongStart = () => {
-    return(
+  return (
     <div>
-        <Navigation />
-        <h1>Create a Strong Start</h1>
+      <h1>Create a Strong Start</h1>
     </div>
-    )
-}
+  );
+};
 
-export default StrongStart
+export default StrongStart;
