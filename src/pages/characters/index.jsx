@@ -1,13 +1,12 @@
 import React from 'react';
-import Navigation from '../../components/navigation.jsx';
 
 const Characters = () => {
-    return (
+  return (
     <div>
-        <Navigation />
-        <h1 class='font-serif'>List of characters</h1>
+      <Navigation />
+      <h1 class="font-serif">List of characters</h1>
     </div>
-    )
-}
+  );
+};
 
-export default Characters
+export default Characters;
