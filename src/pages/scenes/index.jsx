@@ -5,7 +5,7 @@ const Scenes = () => {
     return (
     <div>
         <Navigation />
-        <h1>Possible Scenes</h1>
+        <h1 class='font-serif'>Possible Scenes</h1>
     </div>
     )
 

@@ -5,7 +5,7 @@ const Secrets = () => {
     return (
         <div>
             <Navigation />
-            <h1>Secrets & Clues</h1>
+            <h1 class='font-serif'>Secrets & Clues</h1>
         </div>
     )
 }

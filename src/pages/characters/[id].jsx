@@ -7,10 +7,10 @@ const SingleCharacter = () => {
     const {id} = router.query;
 
     return (
-        <div>
+        <div >
             Single Character Info
             <ul>
-                <li>Character {id}</li>
+                <li class='font-mono'>Character {id}</li>
             </ul>
         </div>
     )
