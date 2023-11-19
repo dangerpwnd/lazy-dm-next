@@ -5,12 +5,54 @@
 @tailwind utilities;
 
 @layer base {
-     @font-face {
-         font-family: 'Inknut Antiqua', serif;
-         font-weight: 500;
-     }
-     @font-face {
-        font-family: 'Noto Sans Mono', monospace;
-        font-weight: 500;
-     }
- }
+  body {
+    @apply font-mono;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif;
+  }
+
+  h1 {
+    @apply text-5xl;
+  }
+
+  h2 {
+    @apply text-4xl;
+  }
+
+  body {
+    @apply bg-gray-900 text-gray-100;
+  }
+
+  .bg-stone-wall {
+    background: url('/assets/images/bg-dungeondoor.png') top/cover
+      no-repeat;
+  }
+}
+
+.circular-nav {
+  @apply relative w-48 h-48 rounded-full bg-gray-800 transition-transform duration-300 ease-in-out;
+}
+
+.circular-nav .logo {
+  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-24 h-24;
+}
+
+.circular-nav .links {
+  @apply absolute top-full left-1/2 transform -translate-x-1/2 scale-0 transition-transform duration-300 ease-in-out flex flex-col space-y-4 items-center;
+  @apply mt-12;
+}
+
+.circular-nav.open {
+  @apply rotate-180;
+}
+
+.circular-nav.open .links {
+  @apply scale-100;
+}
