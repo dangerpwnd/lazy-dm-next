@@ -2,31 +2,36 @@ import Link from 'next/link';
 
 const Navigation = () => {
   return (
-    <nav class="font-serif flex justify-evenly">
-      <Link href="/characters">
-        <a class="shadow-md text-white bg-gray p-4 hover:bg-purple-700">
-          Characters
-        </a>
+    <nav className="font-serif flex justify-evenly">
+      <Link
+        href="/characters"
+        className="shadow-md text-white bg-gray p-4 hover:bg-purple-700"
+      >
+        Characters
       </Link>
-      <Link href="/strongstart">
-        <a class="shadow-md text-white bg-gray p-4 hover:bg-purple-700">
-          Strong Start
-        </a>
+      <Link
+        href="/strongstart"
+        className="shadow-md text-white bg-gray p-4 hover:bg-purple-700"
+      >
+        Strong Start
       </Link>
-      <Link href="/scenes">
-        <a class="shadow-md text-white bg-gray p-4 hover:bg-purple-700">
-          Possible Scenes
-        </a>
+      <Link
+        href="/scenes"
+        className="shadow-md text-white bg-gray p-4 hover:bg-purple-700"
+      >
+        Possible Scenes
       </Link>
-      <Link href="/secrets">
-        <a class="shadow-md text-white bg-gray p-4 hover:bg-purple-700">
-          Secrets & Clues
-        </a>
+      <Link
+        href="/secrets"
+        className="shadow-md text-white bg-gray p-4 hover:bg-purple-700"
+      >
+        Secrets & Clues
       </Link>
-      <Link href="/locations">
-        <a class="shadow-md text-white bg-gray p-4 hover:bg-purple-700">
-          Fantastic Locations
-        </a>
+      <Link
+        href="/locations"
+        className="shadow-md text-white bg-gray p-4 hover:bg-purple-700"
+      >
+        Fantastic Locations
       </Link>
     </nav>
   );
