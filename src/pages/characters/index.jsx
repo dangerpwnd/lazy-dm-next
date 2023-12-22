@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Navigation from '../../components/navigation.jsx';
+import Character from '../../components/character.jsx';
 
 const Characters = () => {
   return (
@@ -10,66 +11,51 @@ const Characters = () => {
         <div className="col-span-3">
           <h2>Current Characters:</h2>
           <div className="flex flex-col bg-stone-wall h-full row-span-4">
-            <div className="bg-gray-700 opacity-80 p-4 m-auto w-4/5 flex">
-              <ul className="w-2/3">
-                <li>Character Name</li>
-                <li>Character Class/Lvl</li>
-                <li>Character Race/Background</li>
-              </ul>
-              <ul className="w-1/3">
-                <li>Edit</li>
-                <li>Favorite</li>
-                <li>Delete</li>
-              </ul>
-            </div>
-            <div className="bg-gray-700 opacity-80 p-4 m-auto w-4/5 flex">
-              <ul className="w-2/3">
-                <li>Character Name</li>
-                <li>Character Class/Lvl</li>
-                <li>Character Race/Background</li>
-              </ul>
-              <ul className="w-1/3">
-                <li>Edit</li>
-                <li>Favorite</li>
-                <li>Delete</li>
-              </ul>
-            </div>
-            <div className="bg-gray-700 opacity-80 p-4 m-auto w-4/5 flex">
-              <ul className="w-2/3">
-                <li>Character Name</li>
-                <li>Character Class/Lvl</li>
-                <li>Character Race/Background</li>
-              </ul>
-              <ul className="w-1/3">
-                <li>Edit</li>
-                <li>Favorite</li>
-                <li>Delete</li>
-              </ul>
-            </div>
-            <div className="bg-gray-700 opacity-80 p-4 m-auto w-4/5 flex">
-              <ul className="w-2/3">
-                <li>Character Name</li>
-                <li>Character Class/Lvl</li>
-                <li>Character Race/Background</li>
-              </ul>
-              <ul className="w-1/3">
-                <li>Edit</li>
-                <li>Favorite</li>
-                <li>Delete</li>
-              </ul>
-            </div>
-            <div className="bg-gray-700 opacity-80 p-4 m-auto w-4/5 flex">
-              <ul className="w-2/3">
-                <li>Character Name</li>
-                <li>Character Class/Lvl</li>
-                <li>Character Race/Background</li>
-              </ul>
-              <ul className="w-1/3">
-                <li>Edit</li>
-                <li>Favorite</li>
-                <li>Delete</li>
-              </ul>
-            </div>
+            <Character
+              name="Bartos Donadarian"
+              cls="Hexblade"
+              lvl="10"
+              race="Half-elf"
+              backgd="Outlander"
+              AC="15"
+              HP="67"
+            />
+            <Character
+              name="Bartos Donadarian"
+              cls="Hexblade"
+              lvl="10"
+              race="Half-elf"
+              backgd="Outlander"
+              AC="15"
+              HP="67"
+            />
+            <Character
+              name="Bartos Donadarian"
+              cls="Hexblade"
+              lvl="10"
+              race="Half-elf"
+              backgd="Outlander"
+              AC="15"
+              HP="67"
+            />
+            <Character
+              name="Bartos Donadarian"
+              cls="Hexblade"
+              lvl="10"
+              race="Half-elf"
+              backgd="Outlander"
+              AC="15"
+              HP="67"
+            />
+            <Character
+              name="Bartos Donadarian"
+              cls="Hexblade"
+              lvl="10"
+              race="Half-elf"
+              backgd="Outlander"
+              AC="15"
+              HP="67"
+            />
           </div>
         </div>
         <div>
