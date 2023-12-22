@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
+
+import Navigation from '../../components/navigation.jsx';
 
 const NPCs = () => {
   return (
     <div>
-      <h1>Important NPCs</h1>
+      <Navigation title="Important NPCs" />
     </div>
   );
 };

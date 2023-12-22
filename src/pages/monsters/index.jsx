@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
+
+import Navigation from '../../components/navigation.jsx';
 
 const Monsters = () => {
   return (
     <div>
-      <h1>Relevant Monsters</h1>
+      <Navigation title="Monsters" />
     </div>
   );
 };

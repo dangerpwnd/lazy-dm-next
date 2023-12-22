@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
+
+import Navigation from '../../components/navigation.jsx';
 
 const MagicItems = () => {
   return (
     <div>
-      <h1>Magic Items</h1>
+      <Navigation title="Magic Items" />
     </div>
   );
 };

@@ -5,8 +5,7 @@ import Navigation from '../components/navigation.jsx';
 const HomePage = () => {
   return (
     <div>
-      <Navigation />
-      <h1>Welcome to the Lazy DM Dashboard</h1>
+      <Navigation title={'Welcome to the Lazy DM Dashboard'} />
     </div>
   );
 };
