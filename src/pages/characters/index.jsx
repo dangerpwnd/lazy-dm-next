@@ -4,10 +4,9 @@ import Navigation from '../../components/navigation.jsx';
 
 const Characters = () => {
   return (
-    <div className="flex flex-row gap-4">
-      <Navigation className="w-1/5" />
-      <section className="grid grid-auto-rows grid-cols-4 w-2/3 gap-4">
-        <h1 className="col-span-4">Characters</h1>
+    <div>
+      <Navigation title="Characters" />
+      <section className="grid grid-auto-rows grid-cols-4 gap-4">
         <div className="col-span-3">
           <h2>Current Characters:</h2>
           <div className="flex flex-col bg-stone-wall h-full row-span-4">
