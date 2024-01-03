@@ -41,7 +41,7 @@
 }
 
 .circular-nav {
-  @apply relative w-48 h-48 rounded-full bg-gray-800 transition-transform duration-300 ease-in-out;
+  @apply relative m-4 w-40 h-40 rounded-full bg-gray-800 transition-transform duration-300 ease-in-out;
 }
 
 .circular-nav .logo {
