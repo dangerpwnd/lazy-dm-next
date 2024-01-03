@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import Link from 'next/link';
+import NavLink from './navlink';
 
 const Navigation = ({ title }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,39 +19,20 @@ const Navigation = ({ title }) => {
           className="logo"
         />
         <div className="links">
-          <Link
-            href="/characters"
-            className="shadow-md text-white bg-gray p-4 hover:bg-purple-700"
-          >
-            Characters
-          </Link>
-          <Link
-            href="/strongstart"
-            className="shadow-md text-white bg-gray p-4 hover:bg-purple-700"
-          >
-            Strong Start
-          </Link>
-          <Link
-            href="/scenes"
-            className="shadow-md text-white bg-gray p-4 hover:bg-purple-700"
-          >
-            Possible Scenes
-          </Link>
-          <Link
-            href="/secrets"
-            className="shadow-md text-white bg-gray p-4 hover:bg-purple-700"
-          >
-            Secrets & Clues
-          </Link>
-          <Link
-            href="/locations"
-            className="shadow-md text-white bg-gray p-4 hover:bg-purple-700"
-          >
-            Fantastic Locations
-          </Link>
+          <NavLink link="/" name="Home" />
+          <NavLink link="/characters" name="Characters" />
+          <NavLink link="strongstart" name="Strong Start" />
+          <NavLink link="/scenes" name="Scenes" />
+          <NavLink link="/secrets" name="Secrets & Clues" />
+          <NavLink link="/locations" name="Fantastic Locations" />
+          <NavLink link="/items" name="Magic Items" />
+          <NavLink link="/npcs" name="NPCs" />
         </div>
       </nav>
       <h1 className="col-span-2 text-center py-4">{title}</h1>
+      <h2 className="text-center p-4">
+        Current Session: Demo Campaign
+      </h2>
     </div>
   );
 };
