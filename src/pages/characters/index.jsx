@@ -2,15 +2,16 @@ import React from 'react';
 
 import Navigation from '../../components/navigation.jsx';
 import Character from '../../components/character.jsx';
+import NewCharacter from '../../components/newcharacter.jsx';
 
 const Characters = () => {
   return (
     <div>
       <Navigation title="Characters" />
-      <section className="grid grid-auto-rows grid-cols-4 gap-4">
-        <div className="col-span-3">
-          <h2>Current Characters:</h2>
-          <div className="flex flex-col bg-stone-wall h-full row-span-4">
+      <section className="grid grid-auto-rows grid-cols-6 gap-4 m-8">
+        <div className="col-start-2 col-span-4">
+          <h2 className="mb-4">Current Characters:</h2>
+          <div className="flex flex-col bg-cave justify-evenly gap-4">
             <Character
               name="Bartos Donadarian"
               cls="Hexblade"
@@ -56,10 +57,11 @@ const Characters = () => {
               AC="15"
               HP="67"
             />
+            <NewCharacter />
           </div>
         </div>
         <div>
-          <h2>Tools:</h2>
+          <h2 className="mb-4">Tools:</h2>
           <div>
             <ul>
               <li>Random Build</li>
