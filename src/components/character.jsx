@@ -17,7 +17,6 @@ const Character = ({ name, cls, lvl, race, backgd, AC, HP }) => {
       </ul>
       <ul className="w-1/3">
         <li>Edit</li>
-        <li>Favorite</li>
         <li>Delete</li>
       </ul>
     </div>
