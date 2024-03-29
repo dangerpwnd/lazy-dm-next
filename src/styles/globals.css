@@ -34,8 +34,8 @@
     @apply bg-gray-900 text-gray-100;
   }
 
-  .bg-stone-wall {
-    background: url('/assets/images/bg-dungeondoor.png') top/cover
+  .bg-cave {
+    background: url('/assets/images/fantasy-cave.png') center/cover
       no-repeat;
   }
 }
